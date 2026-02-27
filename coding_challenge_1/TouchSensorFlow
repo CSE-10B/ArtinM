@@ -1,0 +1,11 @@
+print("Start")
+
+while True: #until break, when the mission becomes acomplished
+    print("Go forward") #direction
+    pressed = input("Touch sensor pressed? (yes/no): ") #asks whether objective has been reached
+
+    if pressed == "yes": #if it's pressed, the program can end using break. otherwise it loops back to the beginning
+        print("Stop")
+        break
+
+print("End")

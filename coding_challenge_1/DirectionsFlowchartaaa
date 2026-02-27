@@ -1,0 +1,22 @@
+print("Start")
+
+
+print("Follow Liberty Avenue for 2 miles")
+print("Turn left onto 40th Street")
+
+
+reached_bridge = False #setting up the boolean
+while not reached_bridge: #until boolean changes(until reached the bridge)
+    answer = input("Reached the bridge? (yes/no): ") #answer is a variable, and has the value of whatever the user 
+                                                     #types in(input). 
+    if answer == "yes": #if/else. if the answe variable has the value(user input) of yes, it changes the boolean
+                        #otherwise, it prints Keep Going, and loops back up prompting the user with the answer variable input
+        reached_bridge = True
+    else:
+        print("Keep going")
+
+print("Turn right onto Foster Street")
+print("Take the first left turn")
+print("Follow road until you reach the NREC building")
+
+print("End")

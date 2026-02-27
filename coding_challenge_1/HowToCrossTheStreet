@@ -1,0 +1,23 @@
+print("Start")
+
+
+
+
+while True: #loop until break(end), once the street has been crossed
+    print("Look left") #direction
+    left = input("See cars coming? (yes/no): ") #input determines action
+
+    if left == "yes": 
+        continue #if cars are seen, "conitnue" loops back to the top of this block(back to look left)
+
+    print("Look right") #same thing but for looking right, the other side
+    right = input("See cars coming? (yes/no): ")
+
+    if right == "yes":
+        continue
+
+    print("Cross Street") #if no cars, and it's able to make it to this part of the block because there are no cars coming, street can
+                          #be crossed. ending the flowchart/objective
+    break #street crossed, end, mission succesful
+
+print("End")

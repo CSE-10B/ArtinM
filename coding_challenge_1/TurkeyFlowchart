@@ -1,0 +1,18 @@
+print("Start")
+#these 2 are directions
+print("Turn on oven")
+
+
+#setting variables to later change
+hours = 0
+temperature = 0
+
+while hours < 4 and temperature < 180: #continue cooking until it either has been 4 hours or the temperature is greater than 180 degrees
+    print("Cook turkey") 
+    
+
+    #asking user for these stats, and updating variable values accordingly. using int
+    hours = int(input("How many hours have passed? "))
+    temperature = int(input("Current temperature? "))
+
+print("End") #once the while loop ends

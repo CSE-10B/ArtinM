@@ -1,0 +1,13 @@
+print("Start")
+    
+    #for loop iterates over the sequence, starting from 1(inclusive) and 21(not inclusive), 
+    #and for those numbers it does what's in the loop, in this case printing Taking Pace and the pace number, incrementing by 1 for each loop over
+for pace in range(1, 21):
+    print("Taking pace", pace)    
+    #turn and shoot(only once, not multiple times like the pacing)
+print("Turning...")
+print("Shooting")
+    
+print("End")
+
+

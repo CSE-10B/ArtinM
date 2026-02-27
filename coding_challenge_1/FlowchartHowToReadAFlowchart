@@ -1,0 +1,28 @@
+print("Start")
+print('Locate the "Start" symbol')
+#starting
+
+while True: #while True because it loops until "break", which is the end of the flowchart
+    print("\nFollow the arrow line") #line for clarity
+    print("Read text inside shape") #more directions
+
+    shape = input("What shape? (diamond/parallelogram/rectangle/pill): ").lower() #input the observed shape. .lower() makes it so that it 
+                                                                                  #accepts lowercase letters
+
+    if shape == "diamond":
+        answer = input("Yes or No? ").lower() #Yes/No indicating the stuff on the lfowchart
+        print("Follow the label:", answer)
+#flowchart shape assigned to it's function, all below
+    elif shape == "parallelogram":
+        print("Read input or write output")
+
+    elif shape == "rectangle":
+        print("Perform the process/action")
+
+    elif shape == "pill": #this is the "break factor", essentially it stops the code once the flowchart ends
+        print("End")
+        break
+
+
+    else: #for the possible "edge case" where the shape is different than what's observed
+        print("Invalid shape")
