@@ -1,0 +1,1 @@
+print(("Not eligible" , "Eligible")[int(input())>=18]) #input into integer, if greater than 18, index 1, meaning Elgible, otherwise index 0, meaning false/not elgible

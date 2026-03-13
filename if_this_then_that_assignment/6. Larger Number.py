@@ -1,0 +1,1 @@
+print(max(map(int, input("Enter two numbers: ").split()))) #take multiple inputs, so use split so they're treater separately, and print the max
